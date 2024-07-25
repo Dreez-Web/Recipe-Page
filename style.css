@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 200vh;
-    
+    width: 125vh;
     
 }
 
@@ -29,6 +29,7 @@ body{
 img{
     width: 100%;
     border-radius: 10px;
+    
 }
 
 p{
@@ -130,3 +131,29 @@ table td:first-child{
 strong{
     color: rgb(105, 38, 13);
 }
+
+
+@media screen and (min-width: 375px) {
+    body {
+      height: 220vh; /* Para pantallas entre 413px y 700px */
+    }
+  }
+  
+  @media screen and (min-width: 701px) {
+    body {
+      height: 230vh; /* Para pantallas entre 701px y 900px */
+    }
+  }
+  
+  @media screen and (min-width: 901px) {
+    body {
+      height: 260vh; /* Para pantallas entre 901px y 1200px */
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    body {
+      height: 320vh; /* Para pantallas mayores de 1200px */
+    }
+  }
+    
